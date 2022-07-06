@@ -1,0 +1,98 @@
+.container {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.wrapperMenu {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.boxMenu {
+    background-color: #F1F1F1;
+    width: 190px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.wrapperCard {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.columnCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.headCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 10px #E5E5E5;
+    border-radius: 5px;
+    width: 250px;
+    height: 80px;
+    padding: 0 20px;
+}
+
+.circle {
+    background-color: #E4E7EB;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0px 2px 10px #E5E5E5;
+    border-left: 5px solid #419644;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.createdAt {
+    text-align: end;
+    margin: 5px 0 0 0;
+}
+
+.new {
+    background-color: #F8F8F8;
+    color: #425A70;
+}
+
+.ongoing {
+    background-color: #FAE3CD;
+    color: #95591E;
+}
+
+.quotation {
+    background-color: #EAE7F8;
+    color: #37248F;
+}
+
+.close {
+    background-color: #D4EEE2;
+    color: #246527;
+}
+
+.ma {
+    background-color: #FAE3CD;
+    color: #95591E;
+}
+
+.notClose {
+    background-color: #F1D2D2;
+    color: #000000;
+}
